@@ -7,6 +7,7 @@
              MinHeight="256" MinWidth="256"
              x:Class="DialogHost.Demo.Views.FruitBowl">
   <dialogHostAvalonia:DialogHost
+		DisableOpeningAnimation="True"
     DialogClosing="FruitBowl_OnDialogClosing">
     <dialogHostAvalonia:DialogHost.DialogContent>
       <StackPanel>

@@ -57,7 +57,8 @@
             <ControlTemplate>
                 <Border Name="PART_ContentBackground" 
                         CornerRadius="{Binding Path=(dialogHost:DialogHostStyle.CornerRadius), RelativeSource={RelativeSource FindAncestor, AncestorType=dialogHost:DialogHost}}"
-                        BoxShadow="1.5 1.5 8 #4c000000" ClipToBounds="False">
+                        BoxShadow="1.5 1.5 8 #4c000000" 
+						ClipToBounds="True">
                     <ContentPresenter Name="PART_ContentPresenter"
                                       Background="{TemplateBinding Background}"
                                       ContentTemplate="{TemplateBinding ContentTemplate}"
