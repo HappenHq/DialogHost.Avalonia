@@ -43,7 +43,7 @@ popup dialog will be displayed can be targeted; to a specific area of your app, 
 <Window ...
         xmlns:dialogHost="clr-namespace:DialogHost;assembly=DialogHost.Avalonia"
         ...
-        Title="DialogHost.Demo">
+        Title="DialogHostDemo">
     <dialogHost:DialogHost CloseOnClickAway="True">
         <dialogHost:DialogHost.DialogContent>
             <!-- put your dialog content here-->

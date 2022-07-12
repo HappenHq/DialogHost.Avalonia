@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DialogHost.Demo.ViewModels
+namespace DialogHostDemo.ViewModels
 {
     public class MainWindowViewModel : ViewModelBase
     {

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Using Include="Avalonia.Web.Blazor" Alias="AvaloniaWebBlazor" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Avalonia.Web.Blazor" Version="0.10.999-cibuild0021683-beta">
+			<IncludeAssets>all</IncludeAssets>
+			<ExcludeAssets>contentFiles</ExcludeAssets>
+		</PackageReference>
+		<PackageReference Include="ReactiveUI" Version="18.0.10" />
+		<PackageReference Include="ReactiveUI.Fody" Version="18.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.5" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DialogHost.Demo\DialogHostDemo.csproj" />
+  </ItemGroup>
+
+</Project>

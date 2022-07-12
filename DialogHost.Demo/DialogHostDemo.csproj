@@ -1,6 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <OutputType>WinExe</OutputType>
         <TargetFramework>net6.0</TargetFramework>
         <Nullable>enable</Nullable>
         <RootNamespace>DialogHostDemo</RootNamespace>
@@ -11,7 +10,6 @@
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="Avalonia" Version="0.10.999-cibuild0021683-beta" />
-        <PackageReference Include="Avalonia.Desktop" Version="0.10.999-cibuild0021683-beta" />
         <PackageReference Include="Avalonia.Diagnostics" Version="0.10.999-cibuild0021683-beta" />
         <PackageReference Include="Avalonia.ReactiveUI" Version="0.10.999-cibuild0021683-beta" />
         <PackageReference Include="Avalonia.Themes.Fluent" Version="0.10.999-cibuild0021683-beta" />

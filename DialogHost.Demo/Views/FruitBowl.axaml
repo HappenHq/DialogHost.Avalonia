@@ -5,7 +5,7 @@
              xmlns:dialogHostAvalonia="clr-namespace:DialogHost;assembly=DialogHost.Avalonia"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              MinHeight="256" MinWidth="256"
-             x:Class="DialogHost.Demo.Views.FruitBowl">
+             x:Class="DialogHostDemo.Views.FruitBowl">
   <dialogHostAvalonia:DialogHost
 		DisableOpeningAnimation="True"
     DialogClosing="FruitBowl_OnDialogClosing">
