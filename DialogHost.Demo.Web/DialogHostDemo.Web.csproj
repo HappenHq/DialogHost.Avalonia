@@ -11,12 +11,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Avalonia.Web.Blazor" Version="0.10.999-cibuild0021683-beta">
+		<PackageReference Include="Avalonia.Web.Blazor" Version="11.0.999-cibuild0023583-beta">
 			<IncludeAssets>all</IncludeAssets>
 			<ExcludeAssets>contentFiles</ExcludeAssets>
 		</PackageReference>
-		<PackageReference Include="ReactiveUI" Version="18.0.10" />
-		<PackageReference Include="ReactiveUI.Fody" Version="18.0.10" />
+		<PackageReference Include="ReactiveUI" Version="18.3.1" />
+		<PackageReference Include="ReactiveUI.Fody" Version="18.3.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.5" PrivateAssets="all" />
   </ItemGroup>
