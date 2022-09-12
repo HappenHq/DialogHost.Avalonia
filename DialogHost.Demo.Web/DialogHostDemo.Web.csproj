@@ -11,7 +11,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Avalonia.Web.Blazor" Version="11.0.999-cibuild0023583-beta">
+		<PackageReference Include="Avalonia.Web.Blazor" Version="11.0.999-cibuild0023734-beta">
 			<IncludeAssets>all</IncludeAssets>
 			<ExcludeAssets>contentFiles</ExcludeAssets>
 		</PackageReference>

@@ -9,10 +9,10 @@
         <AvaloniaResource Include="Assets\**" />
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="Avalonia" Version="11.0.999-cibuild0023583-beta" />
-        <PackageReference Include="Avalonia.Diagnostics" Version="11.0.999-cibuild0023583-beta" />
-        <PackageReference Include="Avalonia.ReactiveUI" Version="11.0.999-cibuild0023583-beta" />
-        <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.999-cibuild0023583-beta" />
+        <PackageReference Include="Avalonia" Version="11.0.999-cibuild0023734-beta" />
+        <PackageReference Include="Avalonia.Diagnostics" Version="11.0.999-cibuild0023734-beta" />
+        <PackageReference Include="Avalonia.ReactiveUI" Version="11.0.999-cibuild0023734-beta" />
+        <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.999-cibuild0023734-beta" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\DialogHost.Avalonia\DialogHost.Avalonia.csproj" />
